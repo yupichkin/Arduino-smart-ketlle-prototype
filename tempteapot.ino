@@ -163,3 +163,12 @@ void loop() {
   }
   
 }
+
+/*
+  esp.publish("sesc/tea/power/get", "ON", 1,0);
+  esp.process();
+  delay(2000);
+  esp.publish("sesc/tea/power/get", "OFF", 1,0);
+    esp.process();
+  delay(2000);
+*/
